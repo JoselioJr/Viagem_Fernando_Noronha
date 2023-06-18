@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+#cont-sec{
+    display: flex;
+    justify-content: center;
+}
+
+#atg{
+    display: block;
+    width: 1100px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+#atg h3{
+    color: #3f71b1;
+    font-size: 25px;
+    text-indent: 20px;
+}
+
+#atg h3 > a{
+    font-size: 20px;
+    color: #F8A705;
+    text-decoration: none;
+}
+
+#vig{
+    display: flex;
+}
+
+#vig img{
+    width: 500px;
+    height: auto;
+}
+
+#rod-sec{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    position: absolute;
+    margin-top: 20px;
+}

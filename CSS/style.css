@@ -1,0 +1,265 @@
+@charset "UTF-8";
+
+/* Tags Usadas:
+    margin: ;
+    padding: ;
+    color: ;
+    background-color: ;
+    width: ;
+    height: ;
+    position: ;
+    display: ;
+    float: ;
+    transition: ;
+    justify-content: ;
+    list-style-type: ;
+    text-decoration: ;
+    text-indent: ;
+    text-align: ;
+    font-family: ;
+    font-size: ;
+    border-radius: ;
+    border: ;
+    box-shadow: ;
+    top: ;
+*/
+
+body{
+    margin: 0;
+    padding-top: 80px;
+    background-color: #f5f5f5;
+}
+
+#sup{
+    width: 100%;
+    height: 77px;
+    margin-top: -80px;
+    background-color: #fff;
+    display: flex;
+    box-shadow: 0px -5px 20px 5px black;
+}
+
+#sup img{
+    margin-top: -23px;
+    margin-left: 20px;
+    width: 90px;
+    height: auto;
+}
+
+#menu{
+    display: inline-flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#menu nav > ul{
+    display: inline-flex;
+    list-style-type: none;
+}
+
+#menu nav > ul > li{
+    display: inline-block;
+	position: relative;
+}
+
+#menu nav > ul > li > a{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 10px;
+    color: #333;
+    font-size: 18px;
+    transition: 0.3s ease;
+}
+
+#menu nav > ul > li > a:hover{
+    background-color: #3f71b1;
+    color: #fff;
+    border-radius: 15px;
+}
+
+#menu nav > ul > li > ul{
+    display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	padding: 2px;
+}
+
+#menu nav > ul > li:hover ul{
+	display: flex;
+}
+
+#menu nav > ul > li > ul > li{
+	display: block;
+    margin-left: 10px;
+}
+
+#menu nav > ul > li > ul > li > a{
+	display: block;
+	padding: 5px;
+	color: #333;
+	text-decoration: none;
+	transition: 0.2s ease;
+}
+
+#menu ul > li > ul > li > a:hover{
+	background-color: #eee;
+}
+
+#pesquisa{
+    margin-top: 14px;
+    float: right;
+    margin-right: 30px;
+}
+
+#fundo_pr{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    position: relative;
+}
+
+#fundo_pr img{
+    width: 1185px;
+    height: 500px;
+}
+
+#city h1{
+    position: absolute;
+    text-indent: 30px;
+    margin-left: 40px;
+    font-size: 50px;
+    margin-top: 200px;
+    color: #F8A705;
+    padding: 10px;
+    background-color: #3f71b1;
+}
+
+#text{
+    display: flex;
+    justify-content: center;
+    margin-top: -220px;
+}
+
+#container{
+    position: absolute;
+    width: 1100px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 30px;
+}
+
+.pacotes{
+    display: flex;
+}
+
+.pacotes h1{
+    font-size: 22px;
+    text-indent: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.pacotes img{
+    width: 300px;
+    height: auto;
+    border-radius: 7px;
+    border: 1px solid #3f71b1;
+}
+
+#dup{
+    width: 300px;
+    height: auto;
+    border-radius: 7px;
+    border: 1px solid #3f71b1;
+    height: 193px;
+}
+
+.pacotes figcaption{
+    padding: 5px;
+    text-align: center;
+    font-size: 17px;
+}
+
+.pacotes a{
+    color: #000;
+    text-decoration: none;
+}
+
+#praia{
+    display: flex;
+}
+
+#praia img{
+    float: left;
+    width: 450px;
+    height: auto;
+}
+
+#praia div > p{
+    float: left;
+    margin-top: 130px;
+}
+
+#mais p{
+    margin-top: 30px;
+    font-size: 20px;
+    text-indent: 10px;
+}
+
+#mais a{
+    color: #F8A705;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#mais a:hover{
+    color: #000;
+    background-color: #F8A705;
+    transition: 0.1s ease;
+}
+
+#rod{
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    position: absolute;
+    margin-top: 1190px;
+}
+
+#plat{
+    width: 800px;
+}
+
+#plat img{
+    width: 70px;
+    height: auto;
+    float: left;
+    margin-top: 60px;
+    margin-right: 40px;
+}
+
+#cont{
+    margin-top: 40px;
+    margin-left: 600px;
+    width: 600px;
+    border-left: 1px solid #333;
+    padding-left: 30px;
+}
+
+#ass{
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#ass p{
+    text-align: center;
+    font-size: 15px;
+}
